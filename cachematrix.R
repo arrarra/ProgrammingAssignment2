@@ -10,7 +10,8 @@
 #       Functions `set` and `get` are used for storing and retrieving
 #       the contents of the matrix. Functions `setinverse` and `getinverse`
 #       are used for storing and retrieving the inverse of the matrix.
-#       The inverse is initially NULL. Call function `cacheSolve` to compute and store it.
+#       The inverse is initially NULL. You can call function `cacheSolve`
+#       to compute and cache the inverse.
 # Arguments:
 #       x       the contents of the special "matrix"
 makeCacheMatrix <- function(x = matrix()) {
